@@ -92,8 +92,7 @@ newspapers.forEach(newspaper => {
                     source: newspaper.name
                 });
             });
-        })
-        .catch((err) => console.log(err));
+        }).catch((err) => console.log(err));
 });
 
 /**
